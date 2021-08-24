@@ -1,0 +1,92 @@
+* {
+margin :0;
+}
+    /*We set the margin as zero because the browser has its own default margi so we need to change that*/
+    /*We  target body */
+    body {
+        display:flex;
+        flex-direction:column;
+        height:100vh;
+        
+        
+    }
+    /*Header*/
+    .header{
+        display:flex;
+        justify-content:space-between;
+        padding:20px 30px;
+        align-items :center;
+        }
+    /*making the header elements  look attractive*/
+    .header a{
+        margin-right:20px;
+        color:black;
+        font-size:15px;
+        text-decoration:inherit;
+        }
+    .header a:hover{
+        text-decoration:underline; 
+    }
+    .header__right{
+        display:flex;
+        align-items:center;
+        min-width:13vw;
+        justify-content:space-between;
+        
+    }
+    /*Go and make classes  among icons like.header__apps*/
+    .header__right .header__apps{
+    margin-right:10px;
+        
+    }
+    /*Now we style main body*/
+    .mainbody{
+        flex:1;
+        display:flex;
+        margin-top:12%;
+        flex-direction:column;
+        
+    }
+    .mainbody img{
+        object-fit:contain;
+        height:100px;
+        
+    }
+    /*Now we atyle search input*/
+    .search__input{
+        display:flex;
+        align-items:center;
+        border:1px solid pink;
+        height:30px;
+        padding:10px 20px;
+        border-radius:999px;
+        width:75vw;
+        margin:0 auto;
+        margin-top:40px;
+        max-width:560px;
+    }
+    .search__input input{
+    flex:1;
+    padding:10px 20px;
+    border:none;
+    outline:none;	
+    }
+    .search__input .material-icons{
+        color:gray;
+    
+    }
+    .search__button{
+        margin-top:10px;
+        display:flex;
+        justify-content:center;
+        
+    }
+    .search__button button{
+        margin:5px;
+        padding:10px 15px;
+        background-color:pink;
+        outline:none;
+        cursor:pointer;
+    }
+    
+    
